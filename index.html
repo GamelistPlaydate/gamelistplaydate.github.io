@@ -2,13 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="PlaydateAndI-3.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Owen's Playdate Game Wishlist</title>
     <style>
-        @font-face {
-    font-family: 'Arial Rounded MT Regular';
-    src: url('Arial Rounded MT Regular.ttf') format('truetype');
-}
     a {
         display: inline-block;
         text-decoration: none;
@@ -16,6 +11,9 @@
     }
     br {
         size: 100px;
+    }
+    .disable {
+        opacity: 0.4;
     }
 
     a:hover {
@@ -26,6 +24,13 @@
         text-align: center;
         color: #60be83;
         font-size: 30px;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    p {
+        color: #60be83;
+        font-size: 20px;
+        text-align: center;
         flex-direction: column;
         max-width: 100%;
     }
@@ -47,10 +52,15 @@
         border-color: #60be83;
         max-width: 50%;
     }
+    @font-face {
+    font-family: 'Arial Rounded MT Regular';
+    src: url('Arial Rounded MT Regular.ttf') format('truetype');
+}
     </style>
 </head>
 <body>
     <h1 style="color: #60be83; font-size: 60px;"><b>Owen's Playdate Game Wishlist</b></h1>
+    <p>(Not in order)</p>
     <br>
     <a href="https://play.date/games/root-bear/" target="_blank">
         <img src="https://media-cdn.play.date/media/games/212880/rootbear_web1_tp_p3RTIBE.png" alt="Root Bear" title="Root Bear" style="width: 50%; height: auto;">
@@ -67,9 +77,10 @@
         <h1>Post Hero</h1>
     </a>
     <br>
-    <a href="https://play.date/games/p-racing/" target="_blank">
+    <a href="https://play.date/games/p-racing/" target="_blank" class="disable">
         <img src="https://media-cdn.play.date/media/games/138133/Web_small_pQ2AEW4.png" alt="P-Racing" title="P-Racing" style="width: 50%; height: auto;">
         <h1>P-Racing</h1>
+        <p>(This game has already been bought)</p>
     </a>
     <br> 
     <a href="https://play.date/games/crankulator/" target="_blank">
